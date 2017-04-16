@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.4.16)  16 APR 2017 19:28
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.4.16)  16 APR 2017 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2113,18 +2113,18 @@ Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
 ]
+Overfull \vbox (7.44577pt too high) has occurred while \output is active []
+
+
+[7]
 第2章
 
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[7
+[8
 
-]
-Overfull \vbox (7.44577pt too high) has occurred while \output is active []
-
-
-[8]) (./chapters/concrete_requirement.tex
+]) (./chapters/concrete_requirement.tex
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
@@ -2188,37 +2188,53 @@ Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[23]) (./chapters/design_constraint.tex
+[23]
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
 [24]
-第4章
-) (./chapters/quality_characteristics.tex
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[25
+[25]) (./chapters/design_constraint.tex
+Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
-]
+
+[26]
+第4章
+
+Overfull \vbox (7.44577pt too high) has occurred while \output is active []
+
+
+[27
+
+]) (./chapters/quality_characteristics.tex
+Overfull \vbox (7.44577pt too high) has occurred while \output is active []
+
+
+[28]
 第5章
 
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[26
+[29
 
 ]) (./chapters/others.tex
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[27]
+[30]
+Overfull \vbox (7.44577pt too high) has occurred while \output is active []
+
+
+[31]
 第6章
 ) (./chapters/dependency.tex
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[28
+[32
 
 ]
 第7章
@@ -2226,7 +2242,7 @@ Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[29
+[33
 
 ]
 第8章
@@ -2234,7 +2250,7 @@ Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[30
+[34
 
 ]
 第9章
@@ -2247,7 +2263,7 @@ Overfull \hbox (23.8567pt too wide) in paragraph at lines 5--22
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[31
+[35
 
 ]
 第10章
@@ -2258,17 +2274,22 @@ File: figures/ustc_logo_fig.pdf Graphic file (type QTm)
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[32
+[36
 
 ]
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[33]
+[37]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 10.2 on input line 93.
+
+
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[34]
+[38]
 \g__fontspec_family_FangSong_int=\count285
 .................................................
 . fontspec info: "no-font-shape"
@@ -2300,7 +2321,7 @@ Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 .................................................
 
 
-LaTeX Warning: Reference `first-code' on page 35 undefined on input line 155.
+LaTeX Warning: Reference `first-code' on page 39 undefined on input line 155.
 
 (d:/TeXLive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2314,231 +2335,231 @@ nput line 156.
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[35]
+[39]
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[36]
+[40]
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 161
 .
  (d:/TeXLive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 179.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 180.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 181.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 182.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 183.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 184.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 185.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 186.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 187.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 192.
 
 
-Package natbib Warning: Citation `tlc2' on page 37 undefined on input line 192.
+Package natbib Warning: Citation `tlc2' on page 41 undefined on input line 192.
 
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 193.
 
 
-Package natbib Warning: Citation `tlc2' on page 37 undefined on input line 193.
+Package natbib Warning: Citation `tlc2' on page 41 undefined on input line 193.
 
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 194.
 
 
-Package natbib Warning: Citation `knuth84' on page 37 undefined on input line 1
+Package natbib Warning: Citation `knuth84' on page 41 undefined on input line 1
 94.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 195.
 
 
-Package natbib Warning: Citation `knuth84' on page 37 undefined on input line 1
+Package natbib Warning: Citation `knuth84' on page 41 undefined on input line 1
 95.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 196.
 
 
-Package natbib Warning: Citation `knuth84' on page 37 undefined on input line 1
+Package natbib Warning: Citation `knuth84' on page 41 undefined on input line 1
 96.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 207.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 208.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 209.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 210.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 211.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 212.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 213.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 214.
 
 
-Package natbib Warning: Citation `knuth86a' on page 37 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 41 undefined on input line 
 215.
 
 
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[37]
+[41]
 
-Package natbib Warning: Citation `knuth86a' on page 38 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 42 undefined on input line 
 220.
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 220.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 220.
 
 
 
-Package natbib Warning: Citation `knuth86a' on page 38 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 42 undefined on input line 
 221.
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 221.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 221.
 
 
 
-Package natbib Warning: Citation `knuth86a' on page 38 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 42 undefined on input line 
 222.
 
 
-Package natbib Warning: Citation `knuth84' on page 38 undefined on input line 2
+Package natbib Warning: Citation `knuth84' on page 42 undefined on input line 2
 22.
 
 
-Package natbib Warning: Citation `knuth86a' on page 38 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 42 undefined on input line 
 223.
 
 
-Package natbib Warning: Citation `knuth84' on page 38 undefined on input line 2
+Package natbib Warning: Citation `knuth84' on page 42 undefined on input line 2
 23.
 
 
-Package natbib Warning: Citation `knuth86a' on page 38 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 42 undefined on input line 
 224.
 
 
-Package natbib Warning: Citation `knuth84' on page 38 undefined on input line 2
+Package natbib Warning: Citation `knuth84' on page 42 undefined on input line 2
 24.
 
 
-Package natbib Warning: Citation `knuth86a' on page 38 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 42 undefined on input line 
 225.
 
 
-Package natbib Warning: Citation `knuth84' on page 38 undefined on input line 2
+Package natbib Warning: Citation `knuth84' on page 42 undefined on input line 2
 25.
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 225.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 225.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 232.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 232.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 233.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 233.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 234.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 234.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 235.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 235.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 236.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 236.
 
 
 
-Package natbib Warning: Citation `knuth86a' on page 38 undefined on input line 
+Package natbib Warning: Citation `knuth86a' on page 42 undefined on input line 
 236.
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 237.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 237.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 238.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 238.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 244.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 244.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 245.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 245.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 246.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 246.
 
 
 
-Package natbib Warning: Citation `tlc2' on page 38 undefined on input line 247.
+Package natbib Warning: Citation `tlc2' on page 42 undefined on input line 247.
 
 
 )
@@ -2547,13 +2568,13 @@ No file main.bbl.
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[38]
+[42]
 附录 A
 ) (./chapters/appendixB.tex
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[39
+[43
 
 ]
 附录 B
@@ -2561,7 +2582,7 @@ Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[40
+[44
 
 ])
 
@@ -2571,10 +2592,13 @@ Package natbib Warning: There were undefined citations.
 Overfull \vbox (7.44577pt too high) has occurred while \output is active []
 
 
-[41]
+[45]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
- (./main.aux)
+(./main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 75.
 
@@ -2591,12 +2615,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 42093 strings out of 493591
- 818526 string characters out of 6148824
- 840561 words of memory out of 5000000
- 44836 multiletter control sequences out of 15000+600000
+ 42073 strings out of 493591
+ 818073 string characters out of 6148824
+ 842443 words of memory out of 5000000
+ 44816 multiletter control sequences out of 15000+600000
  17308 words of font info for 129 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 69i,18n,80p,10492b,4087s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,18n,80p,10492b,4183s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (43 pages).
+Output written on main.pdf (47 pages).
