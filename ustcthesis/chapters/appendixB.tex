@@ -17,26 +17,99 @@
 
 \section{数据字典}
 \subsection{数据流说明}
-\subsubsection{数据流1名称}
-<Title of  the data flow should accord with the one in data flow diagram, and the Data description notions should be used.  >
+\subsubsection{各类请求}
+描述：考生用户提交给系统的各类请求，包括新用户注册、个人信息查询、考试信息查询、预缴费、考试报名、成绩查询等。
 
-与数据流图中的名称一致，采用数据描述符号说明数据流的内容
+\subsubsection{各类请求的响应}
+描述：系统返回给考生查询的信息，如存储的个人信息、考试时间地点信息等。
 
-\subsubsection{数据流2名称}
-<Title of  the data flow should accord with the one in data flow diagram, and the Data description notions should be used   >
+\subsubsection{各类管理操作}
+描述：ETS管理人员提交给系统进行的各类操作，包括发布考试信息、试题维护、试卷成型等。
+\subsubsection{各类操作结果}
+描述：系统返回给ETS管理人员的各类操作结果，如更新的试题等。
+\subsubsection{输入的考生信息}
+描述：需向数据库提交的查询或修改请求中包含的与该考生相关信息。
+\subsubsection{考生信息查询结果}
+描述：信息查询或修改完成后，数据库返回给考生信息管理子系统的结果。
+\subsubsection{存档的考试信息}
+描述：数据库向ETS管理平台子系统提供的已保存的考试信息。
+\subsubsection{录入考试信息}
+描述：ETS管理平台子系统向数据库写入的更新考试信息。
+\subsubsection{3.a}
+名称：考试场次安排查询
+描述：全年考试时间地点安排或考位查询。
+\subsubsection{3.b}
+名称：考试场次安排查询结果
+描述：全年考试时间地点安排或考位情况。
+\subsubsection{3.c}
+名称：注册信息
+描述：新用户注册时输入的信息。
+\subsubsection{3.d}
+名称：注册结果
+描述：写入数据库的注册信息。
+\subsubsection{3.e}
+名称：个人信息查询请求
+描述：考生信息管理子系统提交给考生信息数据库的用户个人信息查询请求。
+\subsubsection{3.f}
+名称：个人信息查询结果
+描述：考生信息数据库返回给考生信息管理子系统的用户个人信息。
+\subsubsection{3.g}
+名称：考试报名信息
+描述：考生信息管理子系统提交给考生信息数据库的考试报名信息。
+\subsubsection{3.h}
+名称：考试报名信息
+描述：考生信息管理子系统提交给考场、考生、成绩数据库的考试报名信息。
+\subsubsection{3.i}
+名称：成绩查询请求
+描述：考生信息管理子系统提交给考场、考生、成绩数据库的成绩查询请求，包括了用户信息。
+\subsubsection{3.j}
+名称：成绩查询结果
+描述：考场、考生、成绩数据库提交给考生信息管理子系统的成绩信息。
+\subsubsection{3.k}
+名称：考生成绩
+描述：从考场、考生、成绩数据库提取的考生成绩
+\subsubsection{3.l}
+名称：考生成绩
+描述：成绩生成过程写入考生信息数据库的考生成绩
+\subsubsection{3.m}
+名称：考试场次查询请求
+\subsubsection{3.n}
+名称：注册请求
+\subsubsection{3.o}
+名称：个人信息查询、更新请求
+\subsubsection{3.p}
+名称：考试报名请求
+\subsubsection{3.q}
+名称：成绩查询请求
+\subsubsection{题目}
+描述：ETS管理员需添加到题库的题目。
+\subsubsection{格式化的题目}
+描述：经题库维护系统格式化后写入题库数据库的题目。
+\subsubsection{试卷草案}
+描述：ETS管理员需添加的一套试题材料。
+\subsubsection{生成的试卷}
+描述：经试卷生成模块生成的格式化试卷。
+\subsubsection{考生身份信息、答卷}
+描述：参加一场考试的考生的身份信息与与之关联的答卷。
+\subsubsection{题目与答案}
+描述：从题库数据库得到的试卷与标准答案。
+\subsubsection{该考场考生成绩}
+描述：写入考场、考生、成绩数据库的参加一场考试的考生成绩。
 
-与数据流图中的名称一致，采用数据描述符号说明数据流的内容
 
 \subsection{数据存储说明}
-\subsubsection{数据存储1名称}
-<Title of  the data flow should accord with the one in data flow diagram, and the Data description notions should be used. The arrangement of the data in data store should also be described.>
+\subsubsection{综合数据库}
+描述：系统使用到的各个数据库的统称。
 
-与数据流图中的名称一致，采用数据描述符号说明数据流的内容，另外还需描述数据排列方式
+\subsubsection{考试场次安排数据}
+描述：记录各考场的考试时间安排及考位信息。
+\subsubsection{考生信息数据}
+描述：记录与每个考生用户相关的信息，包括基本信息、已报名考试信息、成绩等。
+\subsubsection{考场、考生、成绩数据}
+描述：记录参加一场考试的考生的成绩。
+\subsubsection{题库数据}
+描述：记录题库及标准答案。
 
-\subsubsection{数据存储2名称}
-<Title of  the data flow should accord with the one in data flow diagram, and the Data description notions should be used.The arrangement of the data in data store should also be described.>
-
-与数据流图中的名称一致，采用数据描述符号说明数据流的内容，另外还需描述数据排列方式
 
 \subsection{加工说明}
 \subsubsection{加工1名称}
