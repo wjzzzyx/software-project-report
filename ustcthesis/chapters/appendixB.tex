@@ -112,12 +112,30 @@
 
 
 \subsection{加工说明}
-\subsubsection{加工1名称}
-<Use natural language, Decision table/Decision tree and Pseudocode to describe how to process the data flow>
+\subsubsection{ETS考试与管理系统}
+ETS考试与管理系统负责接受考生和ETS管理人员的请求，处理各个请求并且将请求反馈的信息传回给用户和ETS管理人员。
 
-采用自然语言，判断表/判断树，伪码的形式描述对数据流进行处理的过程
+\subsubsection{考生信息管理}
+考生信息管理系统负责接受考生的各类请求，例如缴费，更改密码，查阅考试成绩等。系统将会根据各类请求更新数据库，并且将对应的反馈信息传回给考生，例如考生的成绩以及考生是否缴费成功的信息等。
 
-\subsubsection{加工2名称}
-<Use natural language, Decision table/Decision tree and Pseudocode to describe how to process the data flow>
+\subsubsection{ETS管理平台}
+ETS管理平台负责接受ETS管理人员的各类请求，例如查看某一考生的具体信息，将考生成绩录入到系统中等。平台将根据各类请求向数据库发送查询或者修改请求，并且将对应的请求结果传回给ETS管理人员。
 
-采用自然语言，判断表/判断树，伪码的形式描述对数据流进行处理的过程
+\subsubsection{请求分类}
+负责将用户的各类输入请求进行分类以区分用户的具体要求，例如更改信息，查看成绩等。经过具体分类的请求将会传给下一层的不同加工体。
+
+\subsubsection{考试场次查询}
+该加工体负责接收考试场次查询的指令，向对应的数据库请求考试场次的信息，并且将对应的信息返回给用户。
+
+\subsubsection{注册}
+该加工体负责接收用户请求注册的信息和用户对应的注册信息，将注册信息写入考生信息管理数据库，并将操作成功与否的结果反馈给考生。
+
+\subsubsection{个人信息管理}
+该加工体负责接收用户请求查看用户资料的指令，并且向数据库发送查询请求来获得考生信息，并且将具体的信息重新反馈给考生。
+
+\subsubsection{考试报名}
+该加工体负责接收用户请求报名的指令，更改用户在考生信息数据库中是否已经报名考试的信息，并且将对应的信息写入到考场数据库中。
+
+\subsubsection{成绩查询}
+该加工体负责接收用户查询指令
+
