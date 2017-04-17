@@ -1,19 +1,37 @@
 \chapter{需求建模 }
 \section{数据流图}
 \subsection{顶层数据流图}
-<Draw the Top-level DFD here>
+\begin{figure}[ht]
+\centering
+\includegraphics[width=15cm]{top_module.png}
+\caption{顶层数据流图}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
 
-在这里画出顶层数据流图
 
-\subsection{层数据流图}
-<Draw the Level-0 DFD here>
+\subsection{0层数据流图}
+\begin{figure}[htb]
+\centering
+\includegraphics[width=8cm]{zero_module.png}
+\caption{0层数据流图}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
 
-在这里画出0层数据流图
+\subsection{1层数据流图}
+\begin{figure}[htb]
+\centering
+\includegraphics[width=10cm]{one_module.png}
+\caption{考生用户子系统1层数据流图}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
 
-\subsection{层数据流图}
-<Draw the Level-1 DFD here>
-
-在这里画出1层数据流图
+\subsection{1层数据流图}
+\begin{figure}[htb]
+\centering
+\includegraphics[width=10cm]{one_module.png}
+\caption{ETS管理子系统1层数据流图}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
 
 \section{数据字典}
 \subsection{数据流说明}
@@ -137,5 +155,15 @@ ETS管理平台负责接受ETS管理人员的各类请求，例如查看某一�
 该加工体负责接收用户请求报名的指令，更改用户在考生信息数据库中是否已经报名考试的信息，并且将对应的信息写入到考场数据库中。
 
 \subsubsection{成绩查询}
-该加工体负责接收用户查询指令
+该加工体负责接收用户成绩查询指令。
 
+\subsubsection{成绩生成}
+该加工体负责将考场、考生、成绩数据库中按考场和考试场次组织的成绩转移到考生信息数据库中。
+\subsubsection{操作分类}
+该加工体负责将ETS管理人员的请求分类交给不同的加工体处理。
+\subsubsection{维护系统}
+该加工体接受ETS管理人员对题库的修改，维护题库完整正确。
+\subsubsection{试卷生成}
+该加工体接受ETS管理人员提供的组成试卷的材料，并合成一份试卷。
+\subsubsection{阅卷系统}
+该加工体接受试卷、考生答卷与标准答案，生成考生客观题成绩。

@@ -529,7 +529,16 @@ ETS管理人员使用的子系统，主要包括发布考试场次信息、题�
 \section{外部接口需求}
 
 \subsection{用户接口}
+\subsection{1层数据流图}
+
 A. 对于用户注册与管理系统的用户接口说明如下，这一部分对应于功能需求中新用户注册、个人信息查询与修改、查询考试信息以及预缴费的部分：
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=10cm]{UI}
+\caption{用户接口A}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
 
 用户使用浏览器输入网址***.org后进入登录界面。输入ID和密码即可登录。在登录框下部提供两个按键“新用户注册”和“密码找回”。
 
@@ -547,9 +556,37 @@ A. 对于用户注册与管理系统的用户接口说明如下，这一部分�
 
 B. 对于试题管理系统的用户接口说明如下，这一部分对应于功能需求中题库维护、试题成型和试卷批改的部分：
 
+\begin{figure}[ht]
+\centering
+\includegraphics[width=10cm]{UI2.png}
+\caption{用户接口B1}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=10cm]{UI2-2}
+\caption{用户接口B2}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
+
 管理人员在服务器上运行指定的应用程序后进入登录界面，显示输入框要求输入账户和密码；登录成功后进入主界面，主界面的中央显示主菜单，菜单的选项同3.1中的说明相对应；右下角显示设置字样，点击后将能够查看设置并且进行修改。用户选择任意选项之后，主界面将按照3.1中的功能需求所对应的部分列出具体选项以及显示内容。
 
 C. 对于考试系统的用户接口说明如下，这一部分对应于功能需求中试卷分发及测试的部分：
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=15cm]{ETSwriting}
+\caption{用户接口C1}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=15cm]{ETSlistening}
+\caption{用户接口C2}\label{fig:noted-figure}
+%\note{the solid lines represent the time histogram of the spontaneous activities of an old monkey cell(gray) and a young monkey cell (black). The bin-width is 1}
+\end{figure}
 
 用户将在考场给定的设备上使用本系统。考试未开始时，主界面将显示输入框，提示用户输入验证信息；
 
